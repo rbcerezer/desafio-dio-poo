@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -16,6 +17,7 @@ public class Main {
         curso2.setTitulo("Curso Kotlin");
         curso2.setDescricao("DescriçãoCurso Kotlin");
         curso2.setCargaHoraria(8);
+
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
